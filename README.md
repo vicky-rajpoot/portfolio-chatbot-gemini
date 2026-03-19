@@ -9,7 +9,9 @@ A lightweight, embeddable website chatbot powered by **Gemini Embedding 2** and 
 Drop a `<script>` tag into any page to embed it. No npm, no build steps required.
 
 ### Demo
-[https://github.com/user-attachments/assets/portfolio-chatbot-gemini.mp4](https://github.com/vicky-rajpoot/portfolio-chatbot-gemini/blob/main/portfolio-chatbot-gemini.mp4)
+
+https://github.com/user-attachments/assets/4f89715f-da60-4277-9196-a82463849402
+
 
 *(Note: Replace the above link with your actual GitHub video URL once uploaded, or use the raw path to `portfolio-chatbot-gemini.mp4`)*
 
