@@ -7,6 +7,14 @@
 A lightweight, embeddable website chatbot powered by **Gemini Embedding 2** and **Gemini 2.0 Flash**. Perfect for adding a fast, RAG-enabled AI assistant to your portfolio, blog, or personal website.
 
 Drop a `<script>` tag into any page to embed it. No npm, no build steps required.
+
+### Demo
+https://github.com/user-attachments/assets/portfolio-chatbot-gemini.mp4
+
+*(Note: Replace the above link with your actual GitHub video URL once uploaded, or use the raw path to `portfolio-chatbot-gemini.mp4`)*
+
+<video src="portfolio-chatbot-gemini.mp4" controls="controls" style="max-width: 100%;"></video>
+
 ---
 
 ## Project structure
