@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Demo</title>
+  <style>
+    body {
+      margin: 0; padding: 40px 20px;
+      background: #080808; color: #e8e8e8;
+      font-family: ui-sans-serif, -apple-system, sans-serif;
+      display: flex; flex-direction: column; align-items: center; gap: 24px;
+    }
+    h1 { font-size: 22px; font-weight: 600; }
+    p  { font-size: 14px; color: #888; max-width: 500px; text-align: center; }
+
+    /* The chatbot container — size it however you want */
+    #my-chatbot {
+      width: 100%;
+      max-width: 520px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Website</h1>
+  <p>This is a demo showing the chatbot widget embedded as a section on a page.</p>
+
+  <!-- 1. The div the chatbot mounts into -->
+  <div id="my-chatbot"></div>
+
+  <!-- 2. Configure before loading the script -->
+  <script>
+    window.ChatbotConfig = {
+      containerId: "my-chatbot",
+      apiBase:     "http://localhost:8000",   // ← change to your server URL
+      title:       "Ask our AI",
+      subtitle:    "Ask anything about our docs and content",
+      placeholder: "e.g. What are your pricing plans?",
+      chips:       ["What do you offer?", "How does this work?", "Contact info"],
+    };
+  </script>
+
+  <!-- 3. Load the widget from your server -->
+  <script src="http://localhost:8000/widget.js"></script>
+
+</body>
+</html>
